@@ -21,6 +21,8 @@ View article number: 2-5
 
 Module Class Suffix: grid
 
+----------- FEATURES -----------
+
 **External link (view frontend)**
 
 Key reference in article: add link
