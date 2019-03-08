@@ -37,7 +37,7 @@ Is marking
 
 2- Full article image
 
-3- Null (backround-color in css, "var(--renk01)" )
+3- Null (backround-color in css, "var(--renk01)" )  *possible in grid mode
 
 
 **Sponsor;**
