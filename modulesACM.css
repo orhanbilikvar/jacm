@@ -1,0 +1,371 @@
+/**
+ * Created by İthaki Ajans
+  * Date: 6.03.2019
+ * Time: 16:11
+ */
+
+/* harici link veriyi "yayınlama/anahtar başvurusu"ndan alıyor */
+
+.category-module {
+    width: 100%;
+    display: inline-flex;
+    margin: 0;
+    padding: 20px;
+    vertical-align: top;
+}
+.category-module li.onecikan1 {
+    position: relative;
+    overflow: hidden;
+    border: #91b2e0 1px solid;
+}
+.category-module .onecikan1:before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    height: 50px;
+    width: 50px;
+    top: -25px;
+    right: -25px;
+        display: block;
+    background-color: #91b2e0;
+}
+.category-module h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    font-size: 2vh;
+    text-transform: uppercase;
+}
+.category-module .mod-articles-category-image {
+    position: relative;
+}.category-module .mod-articles-category-image.bos {
+     display: none;
+}
+.category-module .mod-articles-category-image img {
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.category-module.maccol2 li {
+    width: 48%;
+    list-style: none;
+    padding: 20px;
+    margin: 1%;
+}
+.category-module.maccol3 li {
+    width: 31.3%;
+    list-style: none;
+    padding: 20px;
+    margin: 1%;
+}
+.category-module.maccol4 li {
+    width: 23%;
+    list-style: none;
+    padding: 20px;
+    margin: 1%;
+}
+.category-module.maccol5 li {
+    width: 18%;
+    list-style: none;
+    padding: 20px;
+    margin: 1%;
+}
+.category-module.maccol2 .mod-articles-category-image {
+    height: 400px;
+}
+.category-module.maccol3 .mod-articles-category-image {
+    height: 250px;
+}
+.category-module.maccol4 .mod-articles-category-image {
+    height: 175px;
+}
+.category-module.maccol5 .mod-articles-category-image {
+    height: 100px;
+}
+.category-module .haricilink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1100px){
+    .category-module {
+        display: block;
+    }
+    .category-module.maccol2 li {
+        width: 100%;
+    }
+    .category-module.maccol3 li {
+        width: 100%;
+    }
+    .category-module.maccol4 li {
+        width: 100%;
+    }
+    .category-module.maccol5 li {
+        width: 100%;
+    }
+}
+
+/*---------------- todo Grid ----------------*/
+.category-modulegrid {
+    display: grid;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    grid-gap: 10px;
+    overflow: hidden;
+}
+.category-modulegrid li {
+    position: relative;
+     overflow: hidden;
+     min-height: 200px;
+    list-style: none;
+     background-color: var(--renk01);
+     display: flex;
+     flex-direction: column;
+     align-items: end;
+     justify-content: flex-end;
+}
+
+.category-modulegrid li:nth-child(1) h4 a {
+    font-size: 4vh;
+}
+.category-modulegrid .onecikan1:before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    top: -25px;
+    right: -25px;
+    display: block;
+    background-color: var(--renk01);
+}
+
+.category-modulegrid h4 {
+    z-index: 1;
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+}
+.category-modulegrid h4 a {
+    font-size: 2vh;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: normal;
+    z-index: 1;
+
+}
+
+.category-modulegrid .mod-articles-category-image {
+    background-color: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+.category-modulegrid .mod-articles-category-image.bos {
+    display: none;
+}
+.category-modulegrid .mod-articles-category-image img {
+    opacity: 0.5;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.category-modulegrid .mod-articles-category-introtext {
+    z-index: 1;
+    color: #fff;
+    background-color: #0000007d;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+.category-modulegrid .mod-articles-category-readmore {
+    z-index: 1;
+}
+.category-modulegrid li:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end:   4;
+    grid-row-start: 1;
+    grid-row-end:   3;
+}
+.category-modulegrid li:nth-child(2) {
+    grid-column-start: 4;
+    grid-column-end:   5;
+    grid-row-start: 1;
+    grid-row-end:   2;
+}.category-modulegrid li:nth-child(3) {
+    grid-column-start: 4;
+    grid-column-end:   5;
+    grid-row-start: 2;
+    grid-row-end:   3;
+}
+.category-modulegrid li:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end:   3;
+    grid-row-start: 3;
+    grid-row-end:   4;
+}.category-modulegrid li:nth-child(5) {
+    grid-column-start: 3;
+    grid-column-end:   5;
+    grid-row-start: 3;
+    grid-row-end:   4;
+}
+.category-modulegrid .haricilink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1100px){
+    .category-modulegrid {
+        display: block;
+    }
+    .category-modulegrid li{
+        min-height: 250px;
+    }
+}
+
+/*------------ todo slayt ----------------*/
+
+.flickity-enabled {
+    position:relative;
+}
+.flickity-viewport {
+    height: 600px;
+}
+.category-moduleslayt .flickity-slider li {
+    list-style: none;
+    background-color: var(--renk01);
+   /*display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;*/
+    overflow: hidden;
+}
+.category-moduleslayt .onecikan1:before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    top: -25px;
+    right: -25px;
+    display: block;
+    background-color: var(--renk01);
+}
+
+.carousel {
+    position:relative;
+    /* background: #FAFAFA;*/
+    background-color:transparent;
+    margin-bottom: 40px;
+}
+.carouselYNL, .category-moduleslayt .mod-articles-category-image {
+    height: 500px;}
+.flickity-page-dots {
+        bottom: 7px;
+    }
+.flickity-page-dots .dot.is-selected {
+    background-color: var(--renk01);
+}
+.flickity-page-dots .dot {
+    width: 1vw;
+    height: 1vw;
+}
+.category-moduleslayt h4 {
+    position: absolute;
+    top: 5%;
+    font-size: 2.5vh;
+    line-height: normal;
+    margin: 0;
+    z-index: 1;
+    padding: 25px;
+    background-color: rgba(14, 14, 14, 0.7);
+}
+.category-moduleslayt h4 a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.category-moduleslayt .mod-articles-category-introtext {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    color: #fff;
+    padding: 15px;
+    font-size: 1vw;
+    text-align: right;
+    max-width: 50%;
+    background-color: #000000a3;
+
+}
+.category-moduleslayt .mod-articles-category-image {
+      z-index: 0;
+
+}
+.category-moduleslayt .mod-articles-category-image .resimbos {
+     min-width: 30vw;
+ }
+.category-moduleslayt .haricilink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.carouselYNL img {
+    max-width: none;
+    display: block;
+    width: auto;
+    min-width: 1%;
+    height: 100%;
+
+}
+
+.carouselYNL img.is-selected {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity:1;}
+@media screen and (max-width: 1100px){
+    .carouselYNL, .category-moduleslayt .mod-articles-category-image {
+        height: 300px;}
+    .category-moduleslayt .mod-articles-category-image .resimbos {
+        min-width: 90vw;
+    }
+    .category-moduleslayt .mod-articles-category-introtext {
+        display: none;
+    }
+}
