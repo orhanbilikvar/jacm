@@ -14,23 +14,8 @@ defined('_JEXEC') or die;
 $Colclass= $params->get('count', 0);
 
 ?>
-<script>
-    jQuery(document).ready(function($) {
 
-        $('.main-carousel').flickity({
-            // options
-            cellAlign: 'left',
-            contain: true,
-            imagesLoaded: true,
-            wrapAround: true,
-            setGallerySize: false,
-            autoPlay: 5000,
-            pauseAutoPlayOnHover: true
-
-        });
-    });
-</script>
-<ul class="category-module<?php echo $moduleclass_sfx; ?> mod-list <?echo "maccol".$Colclass; ?> <? if ($moduleclass_sfx=="slayt") {echo "carouselYNL"." flickity-enabled"." is-draggable". " main-carousel";} ?> "   >
+<ul class="category-module<?php echo $moduleclass_sfx; ?> mod-list <?echo "maccol".$Colclass; ?>  "   >
 	<?php if ($grouped) : ?>
 		<?php foreach ($list as $group_name => $group) : ?>
 		<li >
