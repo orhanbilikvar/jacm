@@ -21,6 +21,23 @@ View article number: 2-5
 
 Module Class Suffix: grid
 
+**External link (view frontend)**
+
+Key reference in article: add link
+
+**Featured article**
+
+Is marking
+
+**Select Image**
+
+1- Intro image
+
+2- Full article image
+
+3- Null (backround-color in css, "var(-renk01)" )
+
+
 **Sponsor;**
 
 www.ithakiajans.com
