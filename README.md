@@ -5,9 +5,11 @@ Joomla Overrides
 
 **Setup**
 
-*TEMPLATE DIR / html / mod_articles_category / default.php
+*Upload; TEMPLATE DIR / html / mod_articles_category / default.php
 
-*TEMPLATE DIR / css / modulesACM.css
+*Upload; TEMPLATE DIR / css / modulesACM.css
+
+*Linked; Css file
 
 **Normal Mode;**
 
