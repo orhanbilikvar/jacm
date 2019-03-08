@@ -23,7 +23,7 @@ Module Class Suffix: grid
 
 ----------- FEATURES -----------
 
-**External link (view frontend)**
+**External link**
 
 Key reference in article: add link
 
