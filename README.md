@@ -13,7 +13,7 @@ Joomla Overrides
 
 **Normal Mode;**
 
-View article number: 2-5
+View article number: 1-10
 
 (edit css for unlimited)
 
