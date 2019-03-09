@@ -31,7 +31,7 @@ Key reference in article: add link
 
 Is marking
 
-**Select Image**
+**Select Image** (check order)
 
 1- Intro image
 
