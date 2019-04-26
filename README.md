@@ -3,29 +3,20 @@
 
 Joomla Overrides
 
+## New Structure 2019 04 26 ##
+
+-IkonModul.php
+-IkonModul.css
+
 **Setup**
+1-
+*Upload; TEMPLATE DIR / html / mod_articles_category / IkonModul.php
+*Upload; TEMPLATE DIR / html / mod_articles_category / IkonModul.css
+2- Select module template: IkonModul
+3- Add Module suffix: IkonModul
 
-*Upload; TEMPLATE DIR / html / mod_articles_category / default.php
-
-*Upload; TEMPLATE DIR / css / modulesACM.css
-
-*Linked; Css file
-
-**Normal Mode;**
-
-View article number: 1-10
-
-(edit css for unlimited)
-
-**Grid Mode;**
-
-Module Class Suffix: grid
 
 ----------- FEATURES -----------
-
-**External link**
-
-Key reference in article: add link
 
 **Featured article**
 
