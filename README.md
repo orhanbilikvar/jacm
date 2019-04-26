@@ -11,8 +11,11 @@ Joomla Overrides
 **Setup**
 1-
 *Upload; TEMPLATE DIR / html / mod_articles_category / IkonModul.php
+
 *Upload; TEMPLATE DIR / html / mod_articles_category / IkonModul.css
+
 2- Select module template: IkonModul
+
 3- Add Module suffix: IkonModul
 
 
