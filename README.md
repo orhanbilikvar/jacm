@@ -37,7 +37,7 @@ Is marking
 
 **Custom Field**
 
-Chack field name "ikon"
+Chack field name "ikon" (or change IkonModul.php line 150)
 
 **Supporter;**
 
