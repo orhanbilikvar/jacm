@@ -35,6 +35,9 @@ Is marking
 
 3- Null (backround-color in css, "var(--renk01)" )  
 
+**Custom Field**
+
+Chack field name "ikon"
 
 **Supporter;**
 
